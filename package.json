@@ -3,7 +3,7 @@
   "version": "1.0.18",
   "description": "Easiest way to get a timeZone, humanreable-time, Unix-Epoch timestamp and many more.",
   "main": "src/import/require.js",
-  "repository": "",
+  "repository": "https://github.com/TitBitTyrant/-Myno-time",
   "type": "commonjs",
   "scripts": {
     "dev": "tsc --watch",
