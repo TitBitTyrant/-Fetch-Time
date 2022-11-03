@@ -18,9 +18,9 @@ export interface Options {
     * 
 ```
     // CommonJS
-    const { getUnix } = require("@fetch/time");
+    const { getUnix } = require("@myno_21/time");
     // ECMAScript
-    import { getUnix } from "@fetch/time"
+    import { getUnix } from "@myno_21/time"
     
 ```
  */
@@ -56,9 +56,9 @@ declare namespace DataString {
 ```
 
     // CommonJS
-    const { getHumanReadableTime } = require("@fetch/time");
+    const { getHumanReadableTime } = require("@myno_21/time");
     // ECMAScript
-    import { getHumanReadableTime } from "@fetch/time"
+    import { getHumanReadableTime } from "@myno_21/time"
     
 ```
 */
@@ -87,9 +87,9 @@ export interface TimeValue {
  *```
 
     // CommonJS
-    const { getTimezone } = require("@fetch/time");
+    const { getTimezone } = require("@myno_21/time");
     // ECMAScript
-    import { getTimezone } from "@fetch/time"
+    import { getTimezone } from "@myno_21/time"
 
 
 ```
