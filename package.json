@@ -1,6 +1,6 @@
 {
   "name": "@myno_21/time",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Easiest way to get a timeZone, humanreable-time, Unix-Epoch timestamp and many more.",
   "main": "src/import/require.js",
   "repository": "https://github.com/TitBitTyrant/-Myno-time",
