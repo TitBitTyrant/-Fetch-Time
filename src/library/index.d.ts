@@ -295,7 +295,7 @@ interface EventsOptions {
 }
 interface mainEvents {
   setTime: (reamainingTime: EventsOptions, _formattedTime?: string) => {};
-  timeEnd: (timeEnd: EventsOptions) => {};
+  timeEnd: (timeEnd: EventsOptions, setOn?: string) => {};
 }
 /**
  * @default
@@ -309,13 +309,13 @@ const { Timer } = require("@myno_21/time");
 import { Timer } from "@myno_21/time";
 const timer = new Timer() //Setting the timer.
 
-timer.on("timeSet", (timeObject, remainingTime) => {
+timer.on("setTime", (timeObject, remainingTime) => {
     // Do something with it.
-  console.log("The timer is now set!") // Logging when the timer is set.
+  console.log("The timer is now successfully set.") // Logging when the timer is set.
 })
-timer.on("timeEnd", (time) => {
+timer.on("timeEnd", (timeObject, setOn) => {
   // Do something with it.
-    console.log("The time is now owner!") // Logging when the timer is ended.
+    console.log("The time is now over!") // Logging when the timer is ended.
 })
  * ```
 * @default false
